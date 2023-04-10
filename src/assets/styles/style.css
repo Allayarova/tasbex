@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.count {
+  /* background-color: #007336; */
+  background-image: url(../images/mosque-silhouette-night-sky-with-crescent-moon-star_250469-8129.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 625px;
+  width: 100%;
+  color: white;
+}
+
+.tabloTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  font-size: 35px;
+  padding-top: 40px;
+}
+
+.reset {
+  cursor: pointer;
+  user-select: none;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 30px;
+}
+
+.reset2 {
+  cursor: pointer;
+  user-select: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 30px;
+  border: 2px solid white;
+}
+
+.tablo {
+  width: 680px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+  padding: 25px;
+  border-radius: 50px;
+  margin: 40px auto;
+  font-size: 40px;
+}
+
+.tablo2 {
+  display: flex;
+}
+
+.sum {
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 85px;
+  user-select: none;
+  cursor: pointer;
+  margin: 100px auto;
+  color: black;
+  font-family: cursive;
+}
+
+@media only screen and (max-width: 1200px) {
+  .count {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .reset {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 23px;
+    user-select: none;
+  }
+
+  .reset2 {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    border-radius: 50px;
+    font-size: 23px;
+    user-select: none;
+  }
+
+  .tablo {
+    width: 580px;
+    height: 80px;
+    margin: 80px auto;
+    font-size: 40px;
+  }
+
+  .tablo2 {
+    display: flex;
+  }
+
+  .sum {
+    width: 170px;
+    height: 170px;
+    font-size: 85px;
+    user-select: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .count {
+    width: 100%;
+  }
+
+  .tablo {
+    width: 480px;
+    height: 70px;
+    margin: 120px auto;
+    font-size: 40px;
+  }
+
+  .tablo2 {
+    display: flex;
+  }
+
+  .sum {
+    width: 150px;
+    height: 150px;
+    font-size: 75px;
+    margin: 70px auto;
+    user-select: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+    .count {
+    width: 100%;
+    height: 800px;
+  }
+
+  .tablo {
+    width: 330px;
+    height: 70px;
+    margin: 200px auto;
+    font-size: 30px;
+  }
+
+  .tablo2 {
+    display: flex;
+  }
+
+  .sum {
+    width: 130px;
+    height: 130px;
+    font-size: 75px;
+    margin: -140px auto;
+    user-select: none;
+  }
+}
+
